@@ -239,19 +239,11 @@
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  
-  .checkbox:checked ~ .slider::before {
-    -webkit-transform: translateX(30px);
-    -ms-transform: translateX(30px);
-    transform: translateX(30px);
-    background-color: var(--dark);
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-  
-
-
-
+#contact .contact-row .contact-left .icon-box.icon h4 + p{
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
+}
 
   @media screen and (max-width :800px ) {
         .navElement{

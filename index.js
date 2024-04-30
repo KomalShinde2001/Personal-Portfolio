@@ -7,10 +7,3 @@ MenuBtn.addEventListener('click', function(e){
   this.classList.toggle('fa-xmark')
 })
 
-
-
-
-
-
-
-
